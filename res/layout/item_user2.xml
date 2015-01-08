@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:layout_width="match_parent"
+ android:layout_height="match_parent" >
+
+    <TextView
+      android:id="@+id/taskName"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:textSize="20dip"
+     android:text="Name" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/taskName"
+        android:text="Description"
+        android:textSize="10dip" />
+
+
+</RelativeLayout>
